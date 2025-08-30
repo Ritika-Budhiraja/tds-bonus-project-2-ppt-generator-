@@ -23,16 +23,15 @@ Easily convert your ideas into slides with structured formatting and customizati
 ---
 
 ## 📂 Project Structure
-├── LICENSE # Open-source license (MIT)
-├── README.md # Project documentation
-├── app.py # Flask backend application
-├── favicon.ico # App icon
-├── index.html # Web interface
-├── requirements.txt # Dependencies
-├── vercel.json # Deployment configuration for Vercel
-
-yaml
-Copy code
+```
+├── LICENSE             # Open-source license (MIT)
+├── README.md           # Project documentation
+├── app.py              # Flask backend application
+├── favicon.ico         # App icon
+├── index.html          # Web interface
+├── requirements.txt    # Dependencies
+├── vercel.json         # Deployment configuration for Vercel
+```
 
 ---
 
@@ -42,30 +41,37 @@ Copy code
 ```bash
 git clone https://github.com/<your-username>/tds-bonus-project-2-ppt-generator.git
 cd tds-bonus-project-2-ppt-generator
-2️⃣ Install dependencies
-bash
-Copy code
+```
+
+### 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-3️⃣ Run the app locally
-bash
-Copy code
+```
+
+### 3️⃣ Run the app locally
+```bash
 python app.py
-Then open http://127.0.0.1:5000/ in your browser.
+```
+Then open **http://127.0.0.1:5000/** in your browser.
 
-🌍 Deployment
-The project is deployed on Vercel.
-👉 Live Demo
+---
 
-📸 Screenshots
-(Add screenshots of the web interface and sample generated PPTs here)
+## 🌍 Deployment
+The project is deployed on **Vercel**.  
+👉 [Live Demo](https://tds-bonus-project-2-ppt-generator.vercel.app)
 
-🤝 Contributing
-Contributions are welcome!
+---
 
-Fork the repository
 
-Create a new branch (feature/your-feature)
+## 🤝 Contributing
+Contributions are welcome!  
 
-Commit changes
+1. Fork the repository  
+2. Create a new branch (`feature/your-feature`)  
+3. Commit your changes  
+4. Open a Pull Request  
 
-Open a Pull Request
+---
+
+## 📜 License
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
